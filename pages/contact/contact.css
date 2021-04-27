@@ -1,3 +1,30 @@
 ion-content{
-  background:  #596854
+  background:  #596854;
+}
+p{
+color: #CC9A52;
+}
+ion-card{
+  background:#596854
+}
+ion-card-title{
+  color: #CC9A52;
+  font-family:roxboroughCF
+}
+button{
+  background: #596854;
+  color:#CC9A52;
+  font-family:roxboroughCF
+}
+ion-item{
+  background: #505e4b;
+  color:#CC9A52;
+  font-family:roxboroughCF
+}
+ion-input{
+  color:#CC9A52;
+  font-family:roxboroughCF
+}
+ion-label{
+  font-family:roxboroughCF
 }
