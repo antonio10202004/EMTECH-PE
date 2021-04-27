@@ -17,12 +17,12 @@ export class ContactPage {
   }
 
   calculateBURNEDCALORIES(){
-    this.burnedCalories = (this.activity*3.5*this.weight)/this.duration;
+    this.burnedCalories = ((this.activity*3.5*this.weight)/this.duration)*60;
     this.burnedCalories = parseFloat (this.burnedCalories.toFixed(2));
   }
 
   calculateWEIGHTLOSS(){
-    this.weightLoss = (this.burnedCalories*60)/7700;
+    this.weightLoss = (this.burnedCalories)/7700;
     this.weightLoss = parseFloat (this.weightLoss.toFixed(3));
   }
 
