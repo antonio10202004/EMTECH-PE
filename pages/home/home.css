@@ -6,9 +6,14 @@ img{
   margin: auto;
   display: block;
 }
-h2{
-  color: #FCE4B4
+ion-card-title{
+  color: #CC9A52;
+  font-family:roxboroughCF
 }
 p{
-color: #FCE4B4
+color: #CC9A52;
+font-family:roxboroughCF
+}
+ion-card{
+  background:#596854
 }
