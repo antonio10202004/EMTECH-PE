@@ -18,27 +18,27 @@
   <ion-item>
     <ion-label color="danger"> Activity: </ion-label>
     <ion-select interface="popover" [(ngModel)]="activity">
-      <ion-option value="1.3">Sitting at a desk</ion-option>
-      <ion-option value="1.5">Sitting, playing cards</ion-option>
-      <ion-option value="1.8">Standing at a desk</ion-option>
-      <ion-option value="2.0">Strolling at a slow pace</ion-option>
-      <ion-option value="2.2">Washing dishes</ion-option>
-      <ion-option value="2.5">Hatha yoga</ion-option>
-      <ion-option value="2.5">Fishing (sitting)</ion-option>
-      <ion-option value="3.5">Housework</ion-option>
-      <ion-option value="3.5">Weight training (light weights)</ion-option>
-      <ion-option value="4.3">Golf</ion-option>
-      <ion-option value="5">Brisk Walking</ion-option>
-      <ion-option value="5">Weight training (heavier weights)</ion-option>
-      <ion-option value="5">Yard work</ion-option>
-      <ion-option value="6">Swimming laps</ion-option>
-      <ion-option value="6.3">Walking at a very brisk pace</ion-option>
-      <ion-option value="8">Bicycling 12-14 mph</ion-option>
-      <ion-option value="8">Circuit training</ion-option>
-      <ion-option value="8">Singles tennis</ion-option>
-      <ion-option value="8.5">Shoveling, digging ditches</ion-option>
-      <ion-option value="10">Competetive soccer</ion-option>
-      <ion-option value="11.5">Running</ion-option>
+      <ion-option value="a">Sitting at a desk</ion-option>
+      <ion-option value="b">Sitting, playing cards</ion-option>
+      <ion-option value="c">Standing at a desk</ion-option>
+      <ion-option value="d">Strolling at a slow pace</ion-option>
+      <ion-option value="e">Washing dishes</ion-option>
+      <ion-option value="f">Hatha yoga</ion-option>
+      <ion-option value="g">Fishing (sitting)</ion-option>
+      <ion-option value="h">Housework</ion-option>
+      <ion-option value="i">Weight training (light weights)</ion-option>
+      <ion-option value="j">Golf</ion-option>
+      <ion-option value="k">Brisk Walking</ion-option>
+      <ion-option value="l">Weight training (heavier weights)</ion-option>
+      <ion-option value="m">Yard work</ion-option>
+      <ion-option value="n">Swimming laps</ion-option>
+      <ion-option value="o">Walking at a very brisk pace</ion-option>
+      <ion-option value="p">Bicycling 12-14 mph</ion-option>
+      <ion-option value="q">Circuit training</ion-option>
+      <ion-option value="r">Singles tennis</ion-option>
+      <ion-option value="s">Shoveling, digging ditches</ion-option>
+      <ion-option value="t">Competetive soccer</ion-option>
+      <ion-option value="u">Running</ion-option>
       
     </ion-select>
 </ion-item>
@@ -55,7 +55,7 @@
 
 
 
-<button ion-button color="primary" expand="block" (click)="calculateBURNEDCALORIES();calculateWEIGHTLOSS()" >COMPUTE 
+<button ion-button color="primary" expand="block" (click)="calculateMETS();calculateBURNEDCALORIES();calculateWEIGHTLOSS()" >COMPUTE 
 </button>
 
 <ion-item *ngIf="burnedCalories; weightLoss"> 
