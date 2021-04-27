@@ -1,3 +1,13 @@
 ion-content{
  background:  #596854
 }
+ion-card-title{
+  color: #CC9A52;
+  font-family:roxboroughCF
+}
+p{
+color: #CC9A52;
+}
+ion-card{
+  background:#596854
+}
