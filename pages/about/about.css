@@ -1,5 +1,9 @@
 ion-content{
- background:  #596854
+  background:#596854;
+  background-image: url('https://cdn.jsdelivr.net/gh/antonio10202004/EMTECH-PE@master/Fitness%20Way%20(1).png');
+  background-size: contain;
+  background-position: center;
+  background-repeat:no-repeat;
 }
 ion-card-title{
   color: #CC9A52;

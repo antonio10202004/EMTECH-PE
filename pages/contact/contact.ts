@@ -21,8 +21,9 @@ export class ContactPage {
 
 
   calculateBURNEDCALORIES(){
+   
     this.burnedCalories = ((this.activity*3.5*this.weight)/200)*this.duration;
-    this.burnedCalories = parseFloat (this.burnedCalories.toFixed(2));
+    this.burnedCalories = parseFloat(this.burnedCalories.toFixed(2));
   }
 
   calculateWEIGHTLOSS(){

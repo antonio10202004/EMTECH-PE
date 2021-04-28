@@ -16,10 +16,10 @@
   </ion-card-content>
 </ion-card>
 
-<ion-card>
+<ion-card fill="solid">
   <ion-card-content>
   <ion-item>
-    <ion-label color="light"> Activity: </ion-label>
+    <ion-label color="light"> <ion-icon name="flash" item-start></ion-icon>Activity: </ion-label>
     <ion-select interface="popover" [(ngModel)]="activity" >
       <ion-option value=1.3>Sitting at a desk</ion-option>
       <ion-option value="1.5">Sitting, playing cards</ion-option>
@@ -47,23 +47,24 @@
 </ion-item>
 
 <ion-item>
-    <ion-label color="light">Weight in kilograms: </ion-label>
-    <ion-input placeholder="Type here" type="number" [(ngModel)]="weight"></ion-input>
+    <ion-label color="light" floating><ion-icon name="body" item-start></ion-icon>Weight in kilograms: </ion-label>
+    <ion-input  type="number" [(ngModel)]="weight"></ion-input>
 </ion-item>
 
 <ion-item>
-    <ion-label color="light">Duration in minutes: </ion-label>
-    <ion-input placeholder="Type here" type="number" [(ngModel)]="duration"></ion-input>
+    <ion-label color="light" floating><ion-icon name="timer" item-start></ion-icon>Duration in minutes: </ion-label>
+    <ion-input  type="number" [(ngModel)]="duration"></ion-input>
 </ion-item>
 
 
 </ion-card-content>
 </ion-card>
-<button ion-button block fill="solid" (click)="calculateBURNEDCALORIES();calculateWEIGHTLOSS()" >COMPUTE 
+<button ion-button block fill="solid" (click)="calculateBURNEDCALORIES();calculateWEIGHTLOSS()" ><ion-icon name="calculator" item-start></ion-icon>COMPUTE 
 </button>
 
 <ion-item *ngIf="burnedCalories; weightLoss"> 
-  <h2> Burned Calories:  {{burnedCalories}}  per hour
+  <ion-icon name="flame" item-start size=large></ion-icon>
+  <h2> Burned Calories:  {{burnedCalories}}
   </h2>
   <h2> Weight Loss:  {{weightLoss}}  kg
   </h2>
